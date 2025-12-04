@@ -93,6 +93,7 @@ footer {
 <style>
 /* リンクの線をなくす変更 */
 a.sample1 {
-  text-decoration: none;
+　color:red;
+　text-decoration: none;
 }
 </style>
