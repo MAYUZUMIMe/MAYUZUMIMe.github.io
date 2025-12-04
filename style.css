@@ -89,3 +89,10 @@ footer {
     color: #888888; /* 薄い文字色 */
     font-size: 12px;
 }
+
+<style>
+/* リンクの線をなくす変更 */
+a.sample1 {
+  text-decoration: none;
+}
+</style>
