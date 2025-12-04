@@ -1,0 +1,91 @@
+/* ブラウザのデフォルト設定をリセットし、シンプルな基盤を作る */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* リストの黒点を消す */
+}
+
+/* サイト全体の設定 */
+body {
+    /* 背景は白、文字色は黒を基本 */
+    background-color: #ffffff;
+    color: #333333;
+    /* シンプルなゴシック体を選択 */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6; /* 読みやすい行間の設定 */
+}
+
+/* メインコンテンツの幅を制限し、中央に配置（物置らしさの演出） */
+main {
+    max-width: 800px; /* PCでの最大の幅 */
+    margin: 0 auto; /* 左右の余白を自動にし、中央寄せ */
+    padding: 20px;
+}
+
+/* ヘッダーの設定 */
+header {
+    background-color: #f4f4f4; /* 薄いグレー */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #cccccc; /* 下に区切り線 */
+}
+
+/* ナビゲーション（目次）の設定 */
+nav ul {
+    display: flex; /* 横並びにする */
+    justify-content: center; /* 中央に配置 */
+    padding-top: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none; /* 下線を消す */
+    color: #333333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #000000;
+    background-color: #e0e0e0; /* ホバー時に薄く色を変える */
+}
+
+/* 各セクションの設定 */
+section {
+    padding: 40px 0; /* 上下に大きな余白 */
+    border-bottom: 1px dashed #cccccc; /* 点線で区切る（物置感） */
+}
+
+section:last-child {
+    border-bottom: none; /* 最後のセクションの区切り線は不要 */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-left: 5px solid #333333; /* 左に目印の線 */
+    padding-left: 10px;
+}
+
+/* 作品アイテムの間隔設定 */
+.work-item {
+    margin-top: 25px;
+    padding-left: 15px;
+}
+
+.work-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* フッターの設定 */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+    color: #888888; /* 薄い文字色 */
+    font-size: 12px;
+}
